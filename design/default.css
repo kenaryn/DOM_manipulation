@@ -1,0 +1,31 @@
+body {
+  font: small 'Lucida Bright', monospace;
+  background-color: bisque;
+  color: black;
+}
+
+.hidden {
+   /* Take precedence over `display` property from `entry` class */
+  display: none !important;
+  border: 0;
+}
+
+article#new-entries {
+  display: flex;
+  flex: 1 200px;
+  flex-flow: column wrap;
+}
+
+article.entry {
+  display: inline-block;
+  border: thin solid darkgray;
+  margin: 0.5rem 0.7rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.black {
+  background-color: black;
+  color: rgb(190, 171, 171);
+}
+

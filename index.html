@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP 1 - Découvrir le DOM</title>
+  <link rel="stylesheet" href="./design/default.css" title="Default CSS">
+</head>
+<body>
+
+<header>
+  <h1>JS and DOM</h1>
+  <h2>Manipulate the DOM with insert/create</h2>
+</header>
+  
+<nav>
+  <button id="random-bg-colour">Random</button>
+  <button id="flip-bg-colour">Colour</button>
+  <button class="insert-text" value="h1">Add title h1</button>
+  <button class="insert-text" value="p">Add paragraphe p</button>
+  <button class="display-hide">Display/hide</button>
+</nav>
+
+<main>
+<section>
+  <header>
+    <h3>New entries programmaticaly generated</h3>
+  </header>
+</section>
+
+<section id="container">
+  <form role="search" id="input-form" class="hidden">
+    <input type="text" id="input-text" placeholder="Enter some text">
+    <button type="submit" id="confirm">Confirm</button>
+  </form>
+
+  <article id="new-entries"><p id="child-node"></p></article>
+</section>
+</main>
+
+<script src="./scripts/main.js" type="module"></script>
+</body>
+</html>
